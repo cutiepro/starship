@@ -234,7 +234,7 @@ tag_max_candidates = 0  # exact matches only
 [git_status]
 disabled = false
 style = "bg:honeycomb fg:blackboard"
-format = '[($ahead_behind )($all_status)]($style)'
+format = '[($ahead_behind )(┊ $conflicted$deleted$renamed$modified$typechanged$stashed$staged$untracked)]($style)'
 up_to_date = "🗸"
 ahead = "↑${count}"
 behind = "↓${count}"
@@ -252,8 +252,8 @@ use_git_executable = false
 # windows_starship = '/mnt/c/...'
 
 [git_metrics]
-# disabled = true
-disabled = false
+disabled = true
+# disabled = false
 added_style = "bg:honeycomb fg:blackboard"
 deleted_style = "bg:honeycomb fg:blackboard"
 format = '([\((+$added)( −$deleted)\) ]($added_style))'
