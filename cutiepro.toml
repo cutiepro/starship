@@ -65,7 +65,7 @@ format = """
 ([](sour_apple)$zig[](sour_apple))\
 )\
 (\
-([](pond)$package[](pond))\
+([](peacock)$package[](peacock))\
 )\
 (\
 ([](sky)$singularity[](sky))\
@@ -97,7 +97,7 @@ $fill\
 ([](creamsicle)$shell[](creamsicle) )\
 ([](creamsicle)$jobs[](creamsicle) )\
 ([](blueberry)$cmd_duration[](blueberry) )\
-([](violet)$time[](violet))\
+([](lilac)$time[](lilac))\
 )\
 $line_break\
 $shlvl$character
@@ -190,7 +190,7 @@ format = '[]($style)[ $symbol \[$name\] ]($style)'
 disabled = false
 truncation_symbol = "…/"
 read_only = "󰌾"
-home_symbol = ' '
+home_symbol = " "
 style = "bg:cherry_blossom fg:blackboard bold"
 read_only_style = "bg:cherry_blossom fg:blackboard bold"
 before_repo_root_style = "bg:cherry_blossom fg:soil"
@@ -234,7 +234,7 @@ tag_max_candidates = 0  # exact matches only
 [git_status]
 disabled = false
 style = "bg:honeycomb fg:blackboard"
-format = '[($ahead_behind )(┊ $conflicted$deleted$renamed$modified$typechanged$stashed$staged$untracked)]($style)'
+format = "[($ahead_behind )(┊ $conflicted$deleted$renamed$modified$typechanged$stashed$staged$untracked)]($style)"
 up_to_date = "🗸"
 ahead = "↑${count}"
 behind = "↓${count}"
@@ -582,7 +582,7 @@ format = "[ $symbol($version) ]($style)"
 [package]
 disabled = false
 symbol = " "
-style = "bg:pond fg:blackboard"
+style = "bg:peacock fg:blackboard"
 format = "[ $symbol($version) ]($style)"
 display_private = true
 
@@ -770,7 +770,7 @@ show_notifications = false
 
 [time]
 disabled = false
-style = "bg:violet fg:blackboard"
+style = "bg:lilac fg:blackboard"
 format = "[ $time]($style)"
 
 [shlvl]
@@ -787,8 +787,8 @@ disabled = false
 success_symbol = "[❥](cherry_blossom bold)"
 error_symbol = "[❥](cherry_blossom bold)"
 vimcmd_symbol = "[❥](cherry_blossom bold)"
-vimcmd_replace_one_symbol = "[❥](violet bold)"
-vimcmd_replace_symbol = "[❥](violet bold)"
+vimcmd_replace_one_symbol = "[❥](lilac bold)"
+vimcmd_replace_symbol = "[❥](lilac bold)"
 vimcmd_visual_symbol = "[❥](sky bold)"
 
 [palettes.cutiepro]
@@ -796,20 +796,26 @@ blackboard = "#181716"
 strawberry = "#f56e7f"
 sour_apple = "#bec975"
 honeycomb = "#e8d6a7"
-violet = "#c0a1c8"
+lilac = "#caa2ca"
 cherry_blossom = "#e5a1a3"
-sky = "#92bbc9"
+sky = "#a5b6ce"
 elephant = "#88847f"
 soil = "#73665b"
 salmon = "#f58669"
-leaf = "#7ac973"
-creamsicle = "#f3b061"
-blueberry = "#9697e4"
-princess = "#ed83bb"
-pond = "#63c693"
+goddess = "#a2caa0"
+creamsicle = "#f7bb6c"
+blueberry = "#9293ec"
+princess = "#ef7dc0"
+peacock = "#5dccc3"
 chalk = "#d5d0c9"
-metal = "#242628"
+metal = "#212225"
+date = "#210f11"
 film = "#2e2a27"
-ocean = "#0f3f4e"
-concrete = "#383838"
+charcoal = "#313735"
+asphalt = "#43403d"
+sea = "#0f3f4e"
+opium = "#978182"
+sage = "#878972"
+cloud = "#808387"
+nectarine = "#f1d090"
 lemon = "#ffef43"
